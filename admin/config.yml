@@ -1,8 +1,14 @@
 backend:
-  name: github
+  name: git-gateway
   repo: torn-flight-club/flight-club-wiki
   branch: main
   auth_scope: repo
+
+media_folder: "static/img"
+public_folder: "/img"
+
+media_library:
+  name: "uploads"
 
 collections:
   - name: "docs_public"
